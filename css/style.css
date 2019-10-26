@@ -445,10 +445,10 @@ button:focus {
 /* Home Banner Area css
 ============================================================================================ */
 .home_banner_area {
-  z-index: 1;
+  /* z-index: 1;
   background: url(../img/banner/home-banner.png) no-repeat top center;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
 }
 .home_banner_area .banner_inner {
   width: 100%;
@@ -484,7 +484,7 @@ button:focus {
   margin-bottom: 20px;
   position: relative;
 }
-.home_banner_area .banner_inner .banner_content h3:after {
+/* .home_banner_area .banner_inner .banner_content h3:after {
   content: "";
   width: 410px;
   height: 2px;
@@ -497,7 +497,7 @@ button:focus {
   .home_banner_area .banner_inner .banner_content h3:after {
     display: none;
   }
-}
+} */
 .home_banner_area .banner_inner .banner_content h1 {
   margin-top: 20px;
   font-size: 70px;
