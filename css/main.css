@@ -57,6 +57,10 @@ h6 {
   padding-left: 75px;
 }
 
+.child-two {
+  text-align: center;
+}
+
 .bio-container {
   flex: 2;
   margin-right: 30px;
