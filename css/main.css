@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500,700");
 
 body {
+  /* margin reset */
+  margin: 0;
+
   line-height: 26px;
   font-size: 15px;
   font-family: "Roboto", sans-serif;
@@ -20,6 +23,10 @@ h6 {
   color: #000000;
 }
 
+.text-uppercase {
+  text-transform: uppercase;
+}
+
 .parent-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -28,6 +35,9 @@ h6 {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+
+  /* for desktop screens */
+  height: 100vh;
 }
 
 .child-one {
@@ -41,20 +51,79 @@ h6 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+
+  margin: auto;
+  padding-right: 75px;
+  padding-left: 75px;
 }
 
 .bio-container {
-  flex: 3;
+  flex: 2;
+  margin-right: 30px;
 }
 
-.spacer {
-  flex: 1;
+.bio-container h3 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.bio-container h1 {
+  margin-top: 20px;
+  font-size: 60px;
+  line-height: 60px;
+  margin-bottom: 25px;
+}
+
+.bio-container a {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  background-color: transparent;
+  margin-top: 20px;
 }
 
 .image-container {
   flex: 3;
+  margin-left: 30px;
 }
 
 .programmer {
   width: 100%;
+}
+
+.primary-btn {
+  display: inline-block;
+  color: #fff;
+  letter-spacing: 0px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 46px;
+  outline: none !important;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%),
+    radial-gradient(circle at top left, #4458dc, #854fee);
+  border: double 2px transparent;
+  box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3);
+}
+
+.primary-btn:hover {
+  background-image: linear-gradient(#ffffff, #ffffff),
+    radial-gradient(circle at top left, #4458dc, #854fee);
+  border: 2px solid #854fee;
+  color: #222;
+  box-shadow: none;
+  background-clip: border-box;
+}
+
+.primary-btn span {
+  padding: 0 42px;
+}
+
+.focused-text {
+  font-weight: bold;
 }
