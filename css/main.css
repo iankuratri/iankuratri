@@ -2,9 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500,700");
 
 body {
-  /* margin reset */
-  margin: 0;
-
   line-height: 26px;
   font-size: 15px;
   font-family: "Roboto", sans-serif;
@@ -23,70 +20,27 @@ h6 {
   color: #000000;
 }
 
-.text-uppercase {
-  text-transform: uppercase;
-}
-
 .parent-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
+  justify-content: center;
 
   /* for desktop screens */
   height: 100vh;
 }
 
-.child-one {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-
-  margin: auto;
-  padding-right: 75px;
-  padding-left: 75px;
-}
-
-.child-two {
-  text-align: center;
-}
-
-.bio-container {
-  flex: 2;
-  margin-right: 30px;
-}
-
-.bio-container h3 {
-  font-size: 40px;
-  margin-bottom: 20px;
-}
-
-.bio-container h1 {
+.head1 {
   margin-top: 20px;
   font-size: 60px;
   line-height: 60px;
   margin-bottom: 25px;
 }
 
-.image-container {
-  flex: 3;
-  margin-left: 30px;
+.head3 {
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 
 .programmer {
   width: 100%;
-}
-
-.focused-text {
-  font-weight: bold;
 }
