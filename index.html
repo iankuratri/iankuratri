@@ -1,31 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no maximum-scale=1.0, user-scalable=no"
     />
+
     <meta
       name="description"
       content="I am a Frontend Developer and my
-    role is to write and style frontend components that meet the
-    requirements of our mocks and fulfil our user stories."
+  role is to write and style frontend components that meet the
+  requirements of our mocks and fulfil our user stories."
     />
-    <title>Ankur Atri - Frontend Developer</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- Main CSS -->
     <link rel="stylesheet" href="./css/main.css" />
+
+    <title>Ankur Atri - Frontend Developer</title>
   </head>
   <body>
-    <div class="parent-container">
-      <div class="child-one">
-        <div class="bio-container">
-          <h3 class="text-uppercase">Hello</h3>
-          <h1 class="text-uppercase">I am Ankur Atri</h1>
-
+    <div class="container-fluid parent-container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-4 bio-container">
+          <h3 class="head3 text-uppercase">Hello</h3>
+          <h1 class="head1 text-uppercase">I am Ankur Atri</h1>
           <p>
-            I am a <span class="focused-text">Frontend Developer</span> and my
-            role is to write and style frontend components that meet the
+            I am a <span class="font-weight-bold">Frontend Developer</span> and
+            my role is to write and style frontend components that meet the
             requirements of our mocks and fulfil our user stories.
           </p>
           <p>
@@ -35,14 +46,16 @@
             CSS and HTML. I love learning and experimenting new things.
           </p>
         </div>
-
-        <div class="image-container">
+        <div class="col-md-6 offset-md-1">
           <img class="programmer" src="img/programmer.svg" alt="programmer" />
         </div>
       </div>
-      <div class="child-two">
-        <p>Social icons will come here.</p>
-      </div>
+
+      <!-- <div class="row">
+        <div class="col text-center">
+          <p>Social icons will come here.</p>
+        </div>
+      </div> -->
     </div>
   </body>
 </html>
