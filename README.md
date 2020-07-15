@@ -1,4 +1,4 @@
-Hello, I am Ankur Atri.
+## Hello, I am Ankur Atri
 
 I am a Frontend Developer and my role is to write and style frontend components that meet the requirements of our mocks and fulfil our user stories.
 
