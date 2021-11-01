@@ -2,9 +2,11 @@
 
 I am a Frontend Developer and my role is to write and style frontend components that meet the requirements of our mocks and fulfil our user stories. 
 
-I have three years of industry experience in building websites and web applications. I specialize in Angular and React. 
+I have three years of industry experience in building websites and web applications.  
 
-Here are my skills,
+I specialize in Angular and React.  
+  
+Here is a list technologies I’ve been working with recently:
 
 Libraries & Frameworks:  
 Angular, Angular Material, RxJS,  React, Bootstrap, Node.js, Express
