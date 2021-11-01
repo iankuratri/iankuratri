@@ -1,7 +1,16 @@
 ## Hello, I am Ankur Atri
 
-I am a Frontend Developer and my role is to write and style frontend components that meet the requirements of our mocks and fulfil our user stories.
+I am a Frontend Developer and my role is to write and style frontend components that meet the requirements of our mocks and fulfil our user stories. 
 
-I have two years of industry experience in building websites and web applications. I specialize in Angular and have professional experience working with Typescript, JavaScript, JQuery, Bootstrap, CSS and HTML.
+I have three years of industry experience in building websites and web applications. I specialize in Angular and React. 
 
-I love learning and experimenting new things. Recently, I have started learning and working on the basic concepts of React and Node.js.
+Here are my skills,
+
+Libraries & Frameworks:
+Angular, Angular Material, RxJS,  React, Bootstrap, Node.js, Express
+
+Programming Languages:
+Typescript, JavaScript, JSX, EJS, HTML, CSS
+
+Tools & Platforms:
+Git, Github, Bitbucket, JIRA, Photoshop, Postmen, MongoDB Compass
