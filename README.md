@@ -6,7 +6,7 @@ I have three years of industry experience in building websites and web applicati
 
 I specialize in Angular and React.  
   
-Here is a list technologies I’ve been working with recently:
+Here is a list of technologies I’ve been working with recently:
 
 Libraries & Frameworks:  
 Angular, Angular Material, RxJS,  React, Bootstrap, Node.js, Express
