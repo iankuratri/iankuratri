@@ -161,6 +161,10 @@ a {
     font-size: 120%;
   }
 
+  body {
+    min-height: 95vh;
+  }
+
   .container {
     width: 850px;
   }
