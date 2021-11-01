@@ -6,11 +6,11 @@ I have three years of industry experience in building websites and web applicati
 
 Here are my skills,
 
-Libraries & Frameworks:
+Libraries & Frameworks:  
 Angular, Angular Material, RxJS,  React, Bootstrap, Node.js, Express
 
-Programming Languages:
+Programming Languages:  
 Typescript, JavaScript, JSX, EJS, HTML, CSS
 
-Tools & Platforms:
+Tools & Platforms:  
 Git, Github, Bitbucket, JIRA, Photoshop, Postmen, MongoDB Compass
