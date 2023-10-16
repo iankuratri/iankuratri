@@ -1,6 +1,6 @@
 ## Hi there! I am Ankur Atri
 
-A proactive and results-driven Frontend Developer with 5 years of industry experience in building performant and scaleable websites and web apps.
+A proactive and result driven Frontend Developer with 5 years of industry experience in building performant and scaleable websites and web apps.
 
 Skilled in project management, I actively participate in all phases of SDLC and excel in collaborating with cross-functional teams to meet project milestones and exceed expectations.
 
